@@ -1,0 +1,37 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+
+x = np.linspace(-180, 180, 10)
+y = np.linspace(-90, 90, 10)
+X, Y = np.meshgrid(x, y)
+
+def f(X, Y, t):
+    return np.sin(X + t) * np.cos(Y - t)
+
+fig, ax = plt.subplots()
+
+vmin, vmax = -1, 1
+Z = f(X, Y, 0)
+
+contour = ax.contourf(X, Y, Z, levels=50, cmap='twilight', vmin=vmin, vmax=vmax)
+
+def update(frame):
+    global contour
+
+    contour.remove()
+
+    Z = f(X, Y, frame)
+    contour = ax.contourf(X, Y, Z, levels=50, cmap='twilight', vmin=vmin, vmax=vmax)
+
+    return []
+
+ani = FuncAnimation(
+    fig,
+    update,
+    frames=np.linspace(0, 2*np.pi, 100),
+    interval=50,
+    blit=False
+)
+
+plt.show()
