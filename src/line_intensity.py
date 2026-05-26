@@ -4,22 +4,27 @@ from matplotlib.animation import FuncAnimation
 from datetime import datetime
 import ppigrf
 import cartopy.crs as ccrs
+import cartopy.feature as cfeature
 
 x = np.linspace(-180, 180, 100)
 y = np.linspace(-89.9, 89.9, 50)
 X, Y = np.meshgrid(x, y)
+                                        
+fig, ax = plt.subplots(figsize=(12, 6), subplot_kw={'projection': ccrs.PlateCarree()})
 
-fig, ax = plt.subplots(figsize=(12, 6))
+
+ax.coastlines()
+ax.add_feature(cfeature.BORDERS, linestyle=':')
 
 vmin, vmax = -60000, 60000 
 
 date_init = datetime(1900, 1, 1)
 _, _, Bu_init = ppigrf.igrf(X, Y, 0, date_init)
 Bu_init = Bu_init.squeeze()
-
-contour = ax.contourf(X, Y, Bu_init, levels=50, cmap='RdBu', vmin=vmin, vmax=vmax)
+                                                                                    
+contour = ax.contourf(X, Y, Bu_init, levels=50, cmap='RdBu', vmin=vmin, vmax=vmax, transform=ccrs.PlateCarree())
 plt.colorbar(contour, label='Intensity Bu (nT)')
-title = ax.set_title(f"Magnetic Field - Year: 1900")
+title = ax.set_title(f"Magnetic Field (vertical component) - Year: 1900")
 
 def update(year):
     global contour
@@ -31,7 +36,7 @@ def update(year):
     Z = Bu.squeeze()
 
     contour = ax.contourf(X, Y, Z, levels=50, cmap='RdBu', vmin=vmin, vmax=vmax)
-    title.set_text(f"Magnetic Field - Year: {int(year)}")
+    title.set_text(f"Magnetic Field (vertical component) - Year: {int(year)}")
     
     return contour
 
@@ -41,7 +46,7 @@ ani = FuncAnimation(
     fig,
     update,
     frames=years,
-    interval=200, 
+    interval=150, 
     blit=False
 )
 
