@@ -38,7 +38,7 @@ Total Intensity of the Magnetic Field
 ## Technologies Used
 - Python
   - ppifrg
- - matplotlib
- - numpy
- - cartopy
- - datetime
+  - matplotlib
+  - numpy
+  - cartopy
+  - datetime
