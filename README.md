@@ -1,29 +1,27 @@
 # SAA Geomagnetic Dynamics
 
 ## Description
-A project aiming to analyse the South Atlantic Anomaly by creating a mechanism to display its behaviours in a graphical way, as well as infering results based off of such results. 
-The full project can be accessed in the ipynb file
+This project aims to analyze the South Atlantic Anomaly (SAA) by developing a mechanism to visualize its geomagnetic behavior and inferring conclusions based on these observations. The complete analysis and code are available in the ipynb file.
 
 ## Objective
-- Creating a Python program to understand the South Atlantic Anomaly in an accessible way.
-- Organizing and infering different informations and conclusions by analysing the results obtained.
-- Researching the scientific background behind the South Atlantic Anomaly to understand the topic through scientific research.
-- Comparing the research with the inferences made, aiming to analyse the intersection between theorical findings and practical projects
+- To develop a Python-based tool for an accessible analysis of the South Atlantic Anomaly.
+- To organize and derive conclusions by analyzing geomagnetic data.
+- To investigate the scientific background of the SAA through geophysical research.
+- To compare experimental data with established theoretical findings, identifying the intersection between computational modeling and geophysics.
   
 ## Scientific Background
-The South Atlantic Anomaly (SAA) is a region of decreased intensity in the Earth's magnetic field, located over the South Atlantic. It poses potential risks to technological devices due to the proximity of the Van Allen radiation belt. The anomaly, the most significant in the geomagnetic field, has been documented for nearly a century but is believed to have existed for up to 900 years. Its intensity has increased and it has migrated westward, influenced by geological core dynamics such as the Coriolis effect and magnetic declination. Understanding the causes of this gain in intensity is complicated, as it results from chaotic movements within the Earth's outer core.
+The South Atlantic Anomaly (SAA) is a region of reduced magnetic field intensity located over the South Atlantic. Due to the lower altitude of the inner Van Allen radiation belt in this area, the SAA poses significant risks to satellite and technological infrastructure. Although documented for nearly a century, the anomaly is estimated to have persisted for up to 900 years. Its intensity has been increasing, and it has exhibited a westward migration, driven by chaotic fluid dynamics in the Earth’s outer core, including the Coriolis effect and secular variations.
 
 ## Methodology
-In order to develop the software, I utilized the Python library "ppigrf" to adquire information about the geomagnetic activity. Alongisde this tool, I used, amongst many others, "matplotlib", "cartopy" and "numpy" to plot the results in a worldwide scale inside the program Visual Studio Code. There were two different approaches to analyse the data from ppigrf:
-- The first approach relies on the vertical component of the earth's magnetosphere
-- The second approach aims to elucidate the intensity of the magnetic field as a whole
+The software was developed using Python, leveraging the ppigrf library to retrieve historical and predictive geomagnetic data. The data processing and visualization were performed using matplotlib, cartopy, and numpy within the Visual Studio Code environment. The analysis followed two distinct approaches:
+- Vertical Component Analysis (Bu): Examining the geometry and inclination of the geomagnetic field lines.
+- Total Magnetic Intensity Analysis (F): Evaluating the magnitude of the full magnetic vector.
 
-The inferences were developed only by observing the results gathered throughout the process, documented in the redults and discussion.
-To construct the scientific research, a standard approach was used. Seeking to understand the anomaly through scientific studies, some extensive papers were used and documented in the project.
+These findings were cross-referenced with established scientific literature to ensure the reliability of the inferences documented in the "Results and Discussion" section.
 
 
 ## Results
-These findings confirm that the South Atlantic Anomaly (SAA) is a persistent irregularity in the magnetic field characterized by reduced magnetic strength. We could, by doing the analysis, link the SAA to magnetic declination, evidenced by the misalignment between magnetic lines and geographic poles, as well as the Coriolis effect. A comparative study of the vertical component (Bu) and Total Magnetic Intensity (F) reveals a spatial shift in the SAA's localization, suggesting it represents a phenomenon of reduced magnetic energy, rather than a mere geometric inclination. Analyzing the full magnetic vector is vital for accurately defining the SAA's extent, indicating it signifies a reduction in the Earth's magnetic shield. The results infered align with the previous scientific research, and while effective methods were used, they could be further refined in the future
+The analysis confirms that the SAA is a persistent irregularity characterized by a localized reduction in magnetic energy density. A comparative study between the vertical component (Bu) and the Total Magnetic Intensity (F) reveals a notable spatial discrepancy; this suggests that the SAA is not merely a geometric inclination of field lines, but a comprehensive decrease in the Earth's magnetic shield. These results align with current geophysical research, demonstrating that analyzing the full magnetic vector is essential for accurately defining the anomaly's spatial extent.
 
 ## Visualization
 
