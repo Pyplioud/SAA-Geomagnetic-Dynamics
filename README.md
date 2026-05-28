@@ -23,7 +23,7 @@ To construct the scientific research, a standard approach was used. Seeking to u
 
 
 ## Results
-...
+These findings confirm that the South Atlantic Anomaly (SAA) is a persistent irregularity in the magnetic field characterized by reduced magnetic strength. We could, by doing the analysis, link the SAA to magnetic declination, evidenced by the misalignment between magnetic lines and geographic poles, as well as the Coriolis effect. A comparative study of the vertical component (Bu) and Total Magnetic Intensity (F) reveals a spatial shift in the SAA's localization, suggesting it represents a phenomenon of reduced magnetic energy, rather than a mere geometric inclination. Analyzing the full magnetic vector is vital for accurately defining the SAA's extent, indicating it signifies a reduction in the Earth's magnetic shield. The results infered align with the previous scientific research, and while effective methods were used, they could be further refined in the future
 
 ## Visualization
 
