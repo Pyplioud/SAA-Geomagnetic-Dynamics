@@ -26,13 +26,14 @@ To construct the scientific research, a standard approach was used. Seeking to u
 ...
 
 ## Visualization
-Total Intensity of the Magnetic Field
-
-![Total Intensity of the Magnetic Field](notebooks/total_intensity.gif)
 
 Vertical Component of the Magnetic Field
 
 ![Vertical Component of the Magnetic Field](notebooks/vertical_component.gif)
+
+Total Intensity of the Magnetic Field
+
+![Total Intensity of the Magnetic Field](notebooks/total_intensity.gif)
 
 ## Technologies Used
 - Python
