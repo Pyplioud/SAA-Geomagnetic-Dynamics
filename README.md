@@ -43,8 +43,8 @@ Total Intensity of the Magnetic Field
   - numpy
   - cartopy
   - datetime
-    
-  ## References (research)
+
+## References (research)
 Hartmann, G. A., & Pacca, I. G. (2009). Time evolution of the South Atlantic Magnetic Anomaly. Anais da Academia Brasileira de Ciências, 81(2), 243–255. https://doi.org/10.1590/s0001-37652009000200010
 
 Pavón-Carrasco, F. J., & De Santis, A. (2016). The South Atlantic Anomaly: The Key for a Possible Geomagnetic Reversal. Frontiers in Earth Science, 4, 40. https://doi.org/10.3389/feart.2016.00040
