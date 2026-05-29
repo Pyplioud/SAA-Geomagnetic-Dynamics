@@ -23,7 +23,7 @@ These findings were cross-referenced with established scientific literature to e
 ## Results and Discussion
 The analysis confirms that the South Atlantic Anomaly (SAA) is a persistent irregularity characterized by a localized reduction in magnetic energy density. The results demonstrate a direct correlation between the SAA and magnetic declination, evidenced by the misalignment between the geographic and magnetic poles. Furthermore, the anomaly's dynamics are heavily influenced by the Coriolis effect; by analyzing the chaotic fluid movements within the Earth's outer core, we observe how the Earth's rotation modulates these variations, significantly contributing to the westward drift of the anomaly.
 
-A comparative study between the vertical component (Bu) and the Total Magnetic Intensity (F) reveals a notable spatial discrepancy. This suggests that the SAA is not merely a geometric inclination of field lines, but a comprehensive decrease in the Earth's magnetic shield. These results align with current geophysical research, demonstrating that analyzing the full magnetic vector is essential for accurately defining the anomaly's spatial extent.
+The comparative study between the vertical component (Bu) and the Total Magnetic Intensity (F) reveals a notable spatial discrepancy. This suggests that the SAA is not merely a geometric inclination of field lines, but a comprehensive decrease in the Earth's magnetic shield. These results align with current geophysical research, demonstrating that analyzing the full magnetic vector is essential for accurately defining the anomaly's spatial extent.
 
 ## Visualization
 
@@ -43,3 +43,10 @@ Total Intensity of the Magnetic Field
   - numpy
   - cartopy
   - datetime
+    
+  ## References (research)
+Hartmann, G. A., & Pacca, I. G. (2009). Time evolution of the South Atlantic Magnetic Anomaly. Anais da Academia Brasileira de Ciências, 81(2), 243–255. https://doi.org/10.1590/s0001-37652009000200010
+
+Pavón-Carrasco, F. J., & De Santis, A. (2016). The South Atlantic Anomaly: The Key for a Possible Geomagnetic Reversal. Frontiers in Earth Science, 4, 40. https://doi.org/10.3389/feart.2016.00040
+
+Shirah, G., & Kuang, W. (2020). NASA Scientific Visualization Studio. Retrieved May 22, 2026, from https://svs.gsfc.nasa.gov/4840/
