@@ -1,7 +1,7 @@
 # SAA Geomagnetic Dynamics
 
 ## Description
-This project aims to analyze the South Atlantic Anomaly (SAA) by developing a mechanism to visualize its geomagnetic behavior and inferring conclusions based on these observations. The complete analysis and code are available in the ipynb file.
+This project aims to analyze the South Atlantic Anomaly (SAA) by developing a mechanism to visualize its geomagnetic behavior and inferring conclusions based on these observations. #The complete analysis and code are available in the ipynb file.
 
 ## Objective
 - To develop a Python-based tool for an accessible analysis of the South Atlantic Anomaly.
